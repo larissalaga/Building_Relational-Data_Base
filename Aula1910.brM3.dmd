@@ -1,8 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Aula1910.brM3" id="AA2B3C5C-EAC9-8F1F-6B7C-4C5D51A04C9B" version="3.5">
-<createdBy>logonrmlocal</createdBy>
-<createdTime>2023-10-19 12:06:54 UTC</createdTime>
-<ownerDesignName>Aula1910.brM3</ownerDesignName>
-<capitalNames>false</capitalNames>
-<designId>AA2B3C5C-EAC9-8F1F-6B7C-4C5D51A04C9B</designId>
-</OSDM_Design>
