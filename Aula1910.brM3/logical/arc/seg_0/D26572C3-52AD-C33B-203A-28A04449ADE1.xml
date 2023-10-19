@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Arc class="oracle.dbtools.crest.model.design.logical.Arc" directorySegmentName="seg_0" id="D26572C3-52AD-C33B-203A-28A04449ADE1" name="Arc_1">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-10-19 12:17:53 UTC</createdTime>
+<ownerDesignName>Aula1910.brM3</ownerDesignName>
+<engineerTo>
+<item key="A70372E8-350A-F8C6-E6A6-DC2800EA3484" value="true"/>
+</engineerTo>
+<entity>0CD92964-53FA-80DF-370F-753E8EC209E3</entity>
+<relations>
+<relationID>240E860D-6BC0-F5A5-8687-BA618730E110</relationID>
+<relationID>E1D76670-E98E-4721-F156-B88B401CA201</relationID>
+<relationID>FCAC57C6-7B46-BD7A-C703-63D6E9662190</relationID>
+</relations>
+</Arc>
