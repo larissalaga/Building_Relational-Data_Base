@@ -219,19 +219,19 @@ DROP SEQUENCE SEQ_TIPO_CONTATO;
 DROP SEQUENCE SEQ_AUTENTICA;*/
 
 INSERT INTO T_RHSTU_AUTENTICA(id_autentica,login,senha,st_login) 
-    VALUES(SEQ_AUTENTICA.nextval,'batatinha@gmail.com','123456','a');
+    VALUES(SEQ_AUTENTICA.nextval,'astolfo@gmail.com','123456','a');
 INSERT INTO T_RHSTU_AUTENTICA(id_autentica,login,senha,st_login) 
-    VALUES(SEQ_AUTENTICA.nextval,'bananinha@bol.com','654321','i');    
+    VALUES(SEQ_AUTENTICA.nextval,'cleuza@bol.com','654321','i');    
 SELECT * FROM T_RHSTU_AUTENTICA;
 
 INSERT INTO T_RHSTU_TIPO_CONTATO (id_tipo_contato,nm_tipo_contato,dt_inicio,dt_fim)
-    VALUES(SEQ_TIPO_CONTATO.nextval,'Frango Assado',to_date('2023-02-28','YYYY-MM-DD'),to_date('2024-04-23','YYYY-MM-DD'));
-INSERT INTO T_RHSTU_TIPO_CONTATO (id_tipo_contato,nm_tipo_contato,dt_inicio,dt_fim)
-    VALUES(SEQ_TIPO_CONTATO.nextval,'Aveia em Flocos',to_date('2020-05-02','YYYY-MM-DD'),to_date('2023-11-12','YYYY-MM-DD'));
+    VALUES(SEQ_TIPO_CONTATO.nextval,'Perpetua Gonçalves',to_date('2023-02-28','YYYY-MM-DD'),to_date('2024-04-23','YYYY-MM-DD'));
+INSERT INTO T_RHSTU_TIPO_CONTATO (idtipo_contato,nm_tipo_contato,dt_inicio,dt_fim)
+    VALUES(SEQ_TIPO_CONTATO.nextval,'Sebastiao Reis',to_date('2020-05-02','YYYY-MM-DD'),to_date('2023-11-12','YYYY-MM-DD'));
 SELECT * FROM T_RHSTU_TIPO_CONTATO;
 
 INSERT INTO T_RHSTU_PACIENTE(id_paciente,nm_paciente,nr_cpf,nr_rg,dt_nascimento,fl_sexo,ds_escolaridade,ds_estado_civil,tip_grupo_sanguineo,nr_altura,nr_peso,id_autentica)
-    VALUES(SEQ_PACIENTE.nextval);
+    VALUES(SEQ_PACIENTE.nextval,'Astolfo Dias da Silva',44477733322,'99-666-888',to_date('1960-01-02','YYYY-MM-DD'),'M','Ensino Médio Completo','Viuvo','O-',1.83,78,);
 SELECT * FROM T_RHSTU_PACIENTE;
 
 INSERT INTO T_RHSTU_FUNCIONARIO(id_funcionario,nm_funcionario,fl_sexo,ds_escolaridade,dt_nascimento,id_autentica)
