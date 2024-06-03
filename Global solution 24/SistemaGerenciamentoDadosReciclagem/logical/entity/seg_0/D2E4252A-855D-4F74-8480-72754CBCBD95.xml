@@ -1,0 +1,166 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D2E4252A-855D-4F74-8480-72754CBCBD95" name="T_SGDR_ENDERECO">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-06-03 11:49:29 UTC</createdTime>
+<ownerDesignName>SistemaGerenciamentoDadosReciclagem</ownerDesignName>
+<engineerTo>
+<item key="5D63FC2D-A51E-B8E0-39F2-2BC650CE12BE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nr_cep" id="E22E2978-D278-377D-BB04-A659113B1E39">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-06-03 11:49:51 UTC</createdTime>
+<ownerDesignName>SistemaGerenciamentoDadosReciclagem</ownerDesignName>
+<engineerTo>
+<item key="5D63FC2D-A51E-B8E0-39F2-2BC650CE12BE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_pais" id="1FCE7684-1BC1-879A-B4C3-8C90BD1392CC">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-06-03 11:50:18 UTC</createdTime>
+<ownerDesignName>SistemaGerenciamentoDadosReciclagem</ownerDesignName>
+<engineerTo>
+<item key="5D63FC2D-A51E-B8E0-39F2-2BC650CE12BE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60 CHAR</dataTypeSize>
+<ownDataTypeParameters>60 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_estado" id="462D7F32-F9AF-0814-D67B-8714035E4EE6">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-06-03 11:50:57 UTC</createdTime>
+<ownerDesignName>SistemaGerenciamentoDadosReciclagem</ownerDesignName>
+<engineerTo>
+<item key="5D63FC2D-A51E-B8E0-39F2-2BC650CE12BE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60 CHAR</dataTypeSize>
+<ownDataTypeParameters>60 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_cidade" id="FDFFC2A6-AAB1-FAF9-C1BF-CD6DEC7BD740">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-06-03 11:56:54 UTC</createdTime>
+<ownerDesignName>SistemaGerenciamentoDadosReciclagem</ownerDesignName>
+<engineerTo>
+<item key="5D63FC2D-A51E-B8E0-39F2-2BC650CE12BE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60 CHAR</dataTypeSize>
+<ownDataTypeParameters>60 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_logradouro" id="3A17F3A1-D1DA-E04F-E16C-760E95F7EBBF">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-06-03 11:58:19 UTC</createdTime>
+<ownerDesignName>SistemaGerenciamentoDadosReciclagem</ownerDesignName>
+<engineerTo>
+<item key="5D63FC2D-A51E-B8E0-39F2-2BC650CE12BE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>70 CHAR</dataTypeSize>
+<ownDataTypeParameters>70 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_logradouro" id="0F0F9019-BAA8-38C5-3545-A13D11140CEE">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-06-03 12:04:08 UTC</createdTime>
+<ownerDesignName>SistemaGerenciamentoDadosReciclagem</ownerDesignName>
+<engineerTo>
+<item key="5D63FC2D-A51E-B8E0-39F2-2BC650CE12BE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_complemento" id="585BD41C-8CB1-2FE9-FD69-EF28A88DD51C">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-06-03 12:04:39 UTC</createdTime>
+<ownerDesignName>SistemaGerenciamentoDadosReciclagem</ownerDesignName>
+<engineerTo>
+<item key="5D63FC2D-A51E-B8E0-39F2-2BC650CE12BE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_usuario" id="282F9AE2-1F8D-9A2F-98A8-EB96A7A09E44">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-06-03 12:16:58 UTC</createdTime>
+<generatorID>6CDA5C40-0D2D-FCE7-7AA6-DA6ADB520B1A</generatorID>
+<ownerDesignName>SistemaGerenciamentoDadosReciclagem</ownerDesignName>
+<engineerTo>
+<item key="5D63FC2D-A51E-B8E0-39F2-2BC650CE12BE" value="true"/>
+</engineerTo>
+<referedAttribute>CBB6BFFC-0D83-9C56-76CB-8C1B8C616ED4</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_cooperativa" id="2492526F-DE3E-785C-2E7B-83AEA878703E">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-06-03 12:17:29 UTC</createdTime>
+<generatorID>50D67029-367D-5180-AC12-E9A9258754D5</generatorID>
+<ownerDesignName>SistemaGerenciamentoDadosReciclagem</ownerDesignName>
+<engineerTo>
+<item key="5D63FC2D-A51E-B8E0-39F2-2BC650CE12BE" value="true"/>
+</engineerTo>
+<referedAttribute>5CC9E0AA-3EF6-9CC7-9588-965C9D9F0084</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_catador" id="FEBEF76F-DEDA-57A2-AA10-CEB67DCDB94C">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-06-03 12:17:53 UTC</createdTime>
+<generatorID>0EA9EB6C-3044-C6C8-B2D8-507C01E71FA4</generatorID>
+<ownerDesignName>SistemaGerenciamentoDadosReciclagem</ownerDesignName>
+<engineerTo>
+<item key="5D63FC2D-A51E-B8E0-39F2-2BC650CE12BE" value="true"/>
+</engineerTo>
+<referedAttribute>509C1682-48B0-AC69-81A8-9BE0E2675B9F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="567A641D-51D0-DF4B-07E2-37BA3FC62A3D" name="T_SGDR_ENDERECO PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-06-03 11:50:48 UTC</createdTime>
+<ownerDesignName>SistemaGerenciamentoDadosReciclagem</ownerDesignName>
+<engineerTo>
+<item key="5D63FC2D-A51E-B8E0-39F2-2BC650CE12BE" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E22E2978-D278-377D-BB04-A659113B1E39</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

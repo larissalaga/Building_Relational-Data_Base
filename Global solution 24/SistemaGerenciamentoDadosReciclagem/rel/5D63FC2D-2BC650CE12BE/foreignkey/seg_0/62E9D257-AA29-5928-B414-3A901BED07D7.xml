@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="62E9D257-AA29-5928-B414-3A901BED07D7" containerWithKeyObject="B86A32B4-7034-3E50-482C-B85C94C3E115" localFKIndex="B755A6BF-ACC7-B802-3B2D-38A40D1B7B60" name="T_SGDR_ENDERECO_T_SGDR_USUARIO_FK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-06-03 12:23:01 UTC</createdTime>
+<generatorID>6CDA5C40-0D2D-FCE7-7AA6-DA6ADB520B1A</generatorID>
+<ownerDesignName>SistemaGerenciamentoDadosReciclagem</ownerDesignName>
+<referredTableLongName>T_SGDR_USUARIO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>8E0A7BE7-7829-1A4C-6698-BE36CFBEA5C3</referredTableID>
+<keyObject>154A57A0-6C7D-12E0-7646-626BD9D382F1</keyObject>
+<referredKeyID>154A57A0-6C7D-12E0-7646-626BD9D382F1</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_usuario</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

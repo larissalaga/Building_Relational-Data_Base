@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="89ADA2B9-D291-7849-42A9-0DB89CD95A1C" containerWithKeyObject="B86A32B4-7034-3E50-482C-B85C94C3E115" localFKIndex="45CCB97E-E481-5DA2-0113-645BD93A7EF1" name="T_SGDR_ENDERECO_T_SGDR_CATADOR_FK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-06-03 12:23:01 UTC</createdTime>
+<generatorID>0EA9EB6C-3044-C6C8-B2D8-507C01E71FA4</generatorID>
+<ownerDesignName>SistemaGerenciamentoDadosReciclagem</ownerDesignName>
+<referredTableLongName>T_SGDR_CATADOR</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>DE712F1E-FC10-A95E-61B1-77A4EBC5ADC8</referredTableID>
+<keyObject>73E3851E-3374-2A13-ED24-534E0CCFB021</keyObject>
+<referredKeyID>73E3851E-3374-2A13-ED24-534E0CCFB021</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_catador</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

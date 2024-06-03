@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8E0A7BE7-7829-1A4C-6698-BE36CFBEA5C3" name="T_SGDR_USUARIO">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-06-03 12:23:01 UTC</createdTime>
+<generatorID>481291A7-AD78-4CF4-0D89-EBD0904DA7CE</generatorID>
+<ownerDesignName>SistemaGerenciamentoDadosReciclagem</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_usuario" id="CF00DA8A-D863-45ED-85D0-C75FF89574D0">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-06-03 12:23:01 UTC</createdTime>
+<generatorID>CBB6BFFC-0D83-9C56-76CB-8C1B8C616ED4</generatorID>
+<ownerDesignName>SistemaGerenciamentoDadosReciclagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_usuario" id="451E1CC8-BD4D-DF85-D7EC-8084FAFEDA25">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-06-03 12:23:01 UTC</createdTime>
+<generatorID>7946ED28-5A86-B31A-B659-5F603E73F224</generatorID>
+<ownerDesignName>SistemaGerenciamentoDadosReciclagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_email" id="21C563EC-42E3-E6F1-AC66-DE13A7AE7FB6">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-06-03 12:23:01 UTC</createdTime>
+<generatorID>CC374DD7-0290-31A7-58EC-F11324C43FAE</generatorID>
+<ownerDesignName>SistemaGerenciamentoDadosReciclagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="154A57A0-6C7D-12E0-7646-626BD9D382F1" name="T_SGDR_USUARIO_PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-06-03 12:23:01 UTC</createdTime>
+<generatorID>1FFF45E4-0A15-2D91-7FFE-F99A28175E7B</generatorID>
+<ownerDesignName>SistemaGerenciamentoDadosReciclagem</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CF00DA8A-D863-45ED-85D0-C75FF89574D0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B4F7E8A6-17AC-55A7-5D9A-3B298E119B3C" name="T_SGDR_TIPOS_PLASTICO">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-06-03 12:07:22 UTC</createdTime>
+<ownerDesignName>SistemaGerenciamentoDadosReciclagem</ownerDesignName>
+<engineerTo>
+<item key="5D63FC2D-A51E-B8E0-39F2-2BC650CE12BE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_plastico" id="1BBD2A54-4D05-B300-0D19-A9006B8EA253">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-06-03 12:07:51 UTC</createdTime>
+<ownerDesignName>SistemaGerenciamentoDadosReciclagem</ownerDesignName>
+<engineerTo>
+<item key="5D63FC2D-A51E-B8E0-39F2-2BC650CE12BE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_tipo_plastico" id="5940DE11-97CC-0B10-DEE1-F726C25BBF18">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-06-03 12:08:12 UTC</createdTime>
+<commentInRDBMS><![CDATA[Ex.: PET, PEAD, PVC, PP, etc..]]></commentInRDBMS>
+<ownerDesignName>SistemaGerenciamentoDadosReciclagem</ownerDesignName>
+<engineerTo>
+<item key="5D63FC2D-A51E-B8E0-39F2-2BC650CE12BE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60 CHAR</dataTypeSize>
+<ownDataTypeParameters>60 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_classificacao" id="63CDBFF8-0A22-0DBD-4402-C44CC431AF4C">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-06-03 12:10:14 UTC</createdTime>
+<commentInRDBMS><![CDATA[Ex.: 1, 2, 3, 4, 5, 6, 7.]]></commentInRDBMS>
+<ownerDesignName>SistemaGerenciamentoDadosReciclagem</ownerDesignName>
+<engineerTo>
+<item key="5D63FC2D-A51E-B8E0-39F2-2BC650CE12BE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_instrucao_reciclagem" id="B7D840C8-BA1F-C1BF-A5D4-03716BA35575">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-06-03 12:11:46 UTC</createdTime>
+<commentInRDBMS><![CDATA[Campo para instrução de descarte correto e descrição de locais para descarte.]]></commentInRDBMS>
+<ownerDesignName>SistemaGerenciamentoDadosReciclagem</ownerDesignName>
+<engineerTo>
+<item key="5D63FC2D-A51E-B8E0-39F2-2BC650CE12BE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LogDes-1768A872-F385-FDBA-D95E-0CB63F5908E2@LOGDT10045</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_cooperativa" id="69F56A85-13D1-239C-8CC7-B7979AC5D1DE">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-06-03 12:18:37 UTC</createdTime>
+<generatorID>B9F138CF-00D8-F179-47AB-B7E2F299B5D4</generatorID>
+<ownerDesignName>SistemaGerenciamentoDadosReciclagem</ownerDesignName>
+<engineerTo>
+<item key="5D63FC2D-A51E-B8E0-39F2-2BC650CE12BE" value="true"/>
+</engineerTo>
+<referedAttribute>5CC9E0AA-3EF6-9CC7-9588-965C9D9F0084</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_usuario" id="B098C00D-1FFE-2136-1F67-88DC8240B5F9">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-06-03 12:19:04 UTC</createdTime>
+<generatorID>0126CF5E-B39C-A712-0561-123365C67E0A</generatorID>
+<ownerDesignName>SistemaGerenciamentoDadosReciclagem</ownerDesignName>
+<engineerTo>
+<item key="5D63FC2D-A51E-B8E0-39F2-2BC650CE12BE" value="true"/>
+</engineerTo>
+<referedAttribute>CBB6BFFC-0D83-9C56-76CB-8C1B8C616ED4</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="FDAF33FF-E64E-0F18-21D9-67F2BB005550" name="T_SGDR_TIPOS_PLASTICO PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-06-03 12:08:08 UTC</createdTime>
+<ownerDesignName>SistemaGerenciamentoDadosReciclagem</ownerDesignName>
+<engineerTo>
+<item key="5D63FC2D-A51E-B8E0-39F2-2BC650CE12BE" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1BBD2A54-4D05-B300-0D19-A9006B8EA253</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

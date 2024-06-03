@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="481291A7-AD78-4CF4-0D89-EBD0904DA7CE" name="T_SGDR_USUARIO">
-<createdBy>laris</createdBy>
-<createdTime>2024-06-03 03:32:35 UTC</createdTime>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F9CF2CCF-6A99-C2CC-6B3F-46A8BABA0BC6" name="T_SGDR_CATADOR">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-06-03 11:35:10 UTC</createdTime>
 <ownerDesignName>SistemaGerenciamentoDadosReciclagem</ownerDesignName>
 <engineerTo>
 <item key="5D63FC2D-A51E-B8E0-39F2-2BC650CE12BE" value="true"/>
@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id_usuario" id="CBB6BFFC-0D83-9C56-76CB-8C1B8C616ED4">
-<createdBy>laris</createdBy>
-<createdTime>2024-06-03 03:40:43 UTC</createdTime>
+<Attribute name="id_catador" id="509C1682-48B0-AC69-81A8-9BE0E2675B9F">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-06-03 11:35:29 UTC</createdTime>
 <ownerDesignName>SistemaGerenciamentoDadosReciclagem</ownerDesignName>
 <engineerTo>
 <item key="5D63FC2D-A51E-B8E0-39F2-2BC650CE12BE" value="true"/>
@@ -27,9 +27,9 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="nm_usuario" id="7946ED28-5A86-B31A-B659-5F603E73F224">
-<createdBy>laris</createdBy>
-<createdTime>2024-06-03 03:42:06 UTC</createdTime>
+<Attribute name="nm_catador" id="7FC89AD4-C006-C6FD-DFF1-EB5AAD08E832">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-06-03 11:36:01 UTC</createdTime>
 <ownerDesignName>SistemaGerenciamentoDadosReciclagem</ownerDesignName>
 <engineerTo>
 <item key="5D63FC2D-A51E-B8E0-39F2-2BC650CE12BE" value="true"/>
@@ -40,31 +40,45 @@
 <dataTypeSize>100 CHAR</dataTypeSize>
 <ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ds_email" id="CC374DD7-0290-31A7-58EC-F11324C43FAE">
-<createdBy>laris</createdBy>
-<createdTime>2024-06-03 03:43:08 UTC</createdTime>
+<Attribute name="nr_telefone" id="29D43DCD-E08A-8B31-271B-6C57BBC68F94">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-06-03 11:38:30 UTC</createdTime>
+<ownerDesignName>SistemaGerenciamentoDadosReciclagem</ownerDesignName>
+<engineerTo>
+<item key="5D63FC2D-A51E-B8E0-39F2-2BC650CE12BE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_raio_coleta" id="8A3CA972-7450-D7B9-95A4-1E6D6685752F">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-06-03 11:39:53 UTC</createdTime>
+<commentInRDBMS><![CDATA[Distancia em Kilometros a partir do endereço fornecido, correspondente à rota de coleta]]></commentInRDBMS>
 <ownerDesignName>SistemaGerenciamentoDadosReciclagem</ownerDesignName>
 <engineerTo>
 <item key="5D63FC2D-A51E-B8E0-39F2-2BC650CE12BE" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>100 CHAR</dataTypeSize>
-<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="1FFF45E4-0A15-2D91-7FFE-F99A28175E7B" name="T_SGDT_USUARIO PK">
-<createdBy>laris</createdBy>
-<createdTime>2024-06-03 03:40:57 UTC</createdTime>
+<identifier id="78169538-7DD8-3FF4-C43D-FE467D92CC53" name="T_SGDR_USUARIO PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-06-03 11:35:56 UTC</createdTime>
 <ownerDesignName>SistemaGerenciamentoDadosReciclagem</ownerDesignName>
 <engineerTo>
 <item key="5D63FC2D-A51E-B8E0-39F2-2BC650CE12BE" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>CBB6BFFC-0D83-9C56-76CB-8C1B8C616ED4</attributeRef>
+<attributeRef>509C1682-48B0-AC69-81A8-9BE0E2675B9F</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

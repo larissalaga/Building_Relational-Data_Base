@@ -1,0 +1,128 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="50FC1861-36D5-0F0A-A557-1744A3932550" name="T_SGDR_TIPOS_PLASTICO">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-06-03 12:23:01 UTC</createdTime>
+<generatorID>B4F7E8A6-17AC-55A7-5D9A-3B298E119B3C</generatorID>
+<ownerDesignName>SistemaGerenciamentoDadosReciclagem</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_plastico" id="9B8B23ED-195A-40CE-BC4B-624E57F8B884">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-06-03 12:23:01 UTC</createdTime>
+<generatorID>1BBD2A54-4D05-B300-0D19-A9006B8EA253</generatorID>
+<ownerDesignName>SistemaGerenciamentoDadosReciclagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_tipo_plastico" id="F8442975-D826-114E-86FF-1F349FE502C9">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-06-03 12:23:01 UTC</createdTime>
+<commentInRDBMS><![CDATA[Ex.: PET, PEAD, PVC, PP, etc..]]></commentInRDBMS>
+<generatorID>5940DE11-97CC-0B10-DEE1-F726C25BBF18</generatorID>
+<ownerDesignName>SistemaGerenciamentoDadosReciclagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60 CHAR</dataTypeSize>
+<ownDataTypeParameters>60 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_classificacao" id="1A6335A6-3879-4B9D-AB89-5273BFD66F74">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-06-03 12:23:01 UTC</createdTime>
+<commentInRDBMS><![CDATA[Ex.: 1, 2, 3, 4, 5, 6, 7.]]></commentInRDBMS>
+<generatorID>63CDBFF8-0A22-0DBD-4402-C44CC431AF4C</generatorID>
+<ownerDesignName>SistemaGerenciamentoDadosReciclagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_instrucao_reciclagem" id="7C73D1CA-9E80-E511-C2CB-6F9F859F360D">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-06-03 12:23:01 UTC</createdTime>
+<commentInRDBMS><![CDATA[Campo para instrução de descarte correto e descrição de locais para descarte.]]></commentInRDBMS>
+<generatorID>B7D840C8-BA1F-C1BF-A5D4-03716BA35575</generatorID>
+<ownerDesignName>SistemaGerenciamentoDadosReciclagem</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LogDes-1768A872-F385-FDBA-D95E-0CB63F5908E2@LOGDT10045</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_SGDR_COOPERATIVA_id_cooperativa" id="A59E2A49-43A3-DFFB-A214-6D4DFCFB5654">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-06-03 12:23:01 UTC</createdTime>
+<generatorID>69F56A85-13D1-239C-8CC7-B7979AC5D1DE</generatorID>
+<ownerDesignName>SistemaGerenciamentoDadosReciclagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5A1AAB07-175F-58BC-5BF5-D3F2AAE1B85E" referredColumn="33FDF48A-D8F6-3F07-56C6-C1E5863332FD"/>
+</associations>
+</Column>
+<Column name="T_SGDR_USUARIO_id_usuario" id="A71E0F9D-A2E6-8C72-346D-E8E1992E7AFF">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-06-03 12:23:01 UTC</createdTime>
+<generatorID>B098C00D-1FFE-2136-1F67-88DC8240B5F9</generatorID>
+<ownerDesignName>SistemaGerenciamentoDadosReciclagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D8C4CDE3-B724-F492-161A-8C9F7490D4D1" referredColumn="CF00DA8A-D863-45ED-85D0-C75FF89574D0"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D54422B5-D9C7-D9F3-77A5-25E4D80E74B1" name="T_SGDR_TIPOS_PLASTICO_PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-06-03 12:23:01 UTC</createdTime>
+<generatorID>FDAF33FF-E64E-0F18-21D9-67F2BB005550</generatorID>
+<ownerDesignName>SistemaGerenciamentoDadosReciclagem</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9B8B23ED-195A-40CE-BC4B-624E57F8B884"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4FC940DE-9923-3D10-9530-C7836376FDBD" name="T_SGDR_TIPOS_PLASTICO_T_SGDR_COOPERATIVA_FK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-06-03 12:23:01 UTC</createdTime>
+<generatorID>B9F138CF-00D8-F179-47AB-B7E2F299B5D4</generatorID>
+<ownerDesignName>SistemaGerenciamentoDadosReciclagem</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A59E2A49-43A3-DFFB-A214-6D4DFCFB5654"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F2A3D675-5E96-EE6A-75A4-8569D5024B63" name="T_SGDR_TIPOS_PLASTICO_T_SGDR_USUARIO_FK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-06-03 12:23:01 UTC</createdTime>
+<generatorID>0126CF5E-B39C-A712-0561-123365C67E0A</generatorID>
+<ownerDesignName>SistemaGerenciamentoDadosReciclagem</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A71E0F9D-A2E6-8C72-346D-E8E1992E7AFF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

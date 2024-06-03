@@ -1,0 +1,199 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B86A32B4-7034-3E50-482C-B85C94C3E115" name="T_SGDR_ENDERECO">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-06-03 12:23:01 UTC</createdTime>
+<generatorID>D2E4252A-855D-4F74-8480-72754CBCBD95</generatorID>
+<ownerDesignName>SistemaGerenciamentoDadosReciclagem</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nr_cep" id="B8165B84-750B-3C08-EDF1-9C4F7B4DA5E5">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-06-03 12:23:01 UTC</createdTime>
+<generatorID>E22E2978-D278-377D-BB04-A659113B1E39</generatorID>
+<ownerDesignName>SistemaGerenciamentoDadosReciclagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_pais" id="B6595A4A-B502-55B4-8233-76D8FC3B45EF">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-06-03 12:23:01 UTC</createdTime>
+<generatorID>1FCE7684-1BC1-879A-B4C3-8C90BD1392CC</generatorID>
+<ownerDesignName>SistemaGerenciamentoDadosReciclagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60 CHAR</dataTypeSize>
+<ownDataTypeParameters>60 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_estado" id="BBC6692A-57A5-AE57-E56A-E7897D79EE25">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-06-03 12:23:01 UTC</createdTime>
+<generatorID>462D7F32-F9AF-0814-D67B-8714035E4EE6</generatorID>
+<ownerDesignName>SistemaGerenciamentoDadosReciclagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60 CHAR</dataTypeSize>
+<ownDataTypeParameters>60 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_cidade" id="37C784AC-03FC-24DC-4D49-308E6F0061BD">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-06-03 12:23:01 UTC</createdTime>
+<generatorID>FDFFC2A6-AAB1-FAF9-C1BF-CD6DEC7BD740</generatorID>
+<ownerDesignName>SistemaGerenciamentoDadosReciclagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60 CHAR</dataTypeSize>
+<ownDataTypeParameters>60 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_logradouro" id="86B60B11-7175-782E-31D8-FAC6BEDB7485">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-06-03 12:23:01 UTC</createdTime>
+<generatorID>3A17F3A1-D1DA-E04F-E16C-760E95F7EBBF</generatorID>
+<ownerDesignName>SistemaGerenciamentoDadosReciclagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>70 CHAR</dataTypeSize>
+<ownDataTypeParameters>70 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_logradouro" id="94BA8FAB-A249-5582-A253-C12692DAC4F6">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-06-03 12:23:01 UTC</createdTime>
+<generatorID>0F0F9019-BAA8-38C5-3545-A13D11140CEE</generatorID>
+<ownerDesignName>SistemaGerenciamentoDadosReciclagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_complemento" id="83219694-2CC6-7E54-ECB1-958F5E7B182B">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-06-03 12:23:01 UTC</createdTime>
+<generatorID>585BD41C-8CB1-2FE9-FD69-EF28A88DD51C</generatorID>
+<ownerDesignName>SistemaGerenciamentoDadosReciclagem</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_SGDR_USUARIO_id_usuario" id="8E2D75B2-EB89-63A7-5722-F047721AC2A0">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-06-03 12:23:01 UTC</createdTime>
+<generatorID>282F9AE2-1F8D-9A2F-98A8-EB96A7A09E44</generatorID>
+<ownerDesignName>SistemaGerenciamentoDadosReciclagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="62E9D257-AA29-5928-B414-3A901BED07D7" referredColumn="CF00DA8A-D863-45ED-85D0-C75FF89574D0"/>
+</associations>
+</Column>
+<Column name="T_SGDR_COOPERATIVA_id_cooperativa" id="5D8E9023-E564-FCBF-7D2B-BA371DAA2373">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-06-03 12:23:01 UTC</createdTime>
+<generatorID>2492526F-DE3E-785C-2E7B-83AEA878703E</generatorID>
+<ownerDesignName>SistemaGerenciamentoDadosReciclagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="29A09E9E-9C20-2303-839B-8A0B2C0D3C94" referredColumn="33FDF48A-D8F6-3F07-56C6-C1E5863332FD"/>
+</associations>
+</Column>
+<Column name="T_SGDR_CATADOR_id_catador" id="8068ACFA-D1AE-A32F-BB9C-867C4C595473">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-06-03 12:23:01 UTC</createdTime>
+<generatorID>FEBEF76F-DEDA-57A2-AA10-CEB67DCDB94C</generatorID>
+<ownerDesignName>SistemaGerenciamentoDadosReciclagem</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="89ADA2B9-D291-7849-42A9-0DB89CD95A1C" referredColumn="C4CA930B-C07C-8D62-3BDD-1BAC3F5EFE76"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="500C43CE-EEFC-BC9A-8100-29C0A804BD2E" name="T_SGDR_ENDERECO_PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-06-03 12:23:01 UTC</createdTime>
+<generatorID>567A641D-51D0-DF4B-07E2-37BA3FC62A3D</generatorID>
+<ownerDesignName>SistemaGerenciamentoDadosReciclagem</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B8165B84-750B-3C08-EDF1-9C4F7B4DA5E5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0D6181DF-9DE5-8157-1AF4-CF1C67C9C4DA" name="T_SGDR_ENDERECO__IDX">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-06-03 12:23:01 UTC</createdTime>
+<ownerDesignName>SistemaGerenciamentoDadosReciclagem</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>50D67029-367D-5180-AC12-E9A9258754D5</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="5D8E9023-E564-FCBF-7D2B-BA371DAA2373"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B755A6BF-ACC7-B802-3B2D-38A40D1B7B60" name="T_SGDR_ENDERECO_T_SGDR_USUARIO_FK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-06-03 12:23:01 UTC</createdTime>
+<generatorID>6CDA5C40-0D2D-FCE7-7AA6-DA6ADB520B1A</generatorID>
+<ownerDesignName>SistemaGerenciamentoDadosReciclagem</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8E2D75B2-EB89-63A7-5722-F047721AC2A0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5342BB20-8EAC-822D-A384-50D64E8874E4" name="T_SGDR_ENDERECO_T_SGDR_COOPERATIVA_FK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-06-03 12:23:01 UTC</createdTime>
+<generatorID>50D67029-367D-5180-AC12-E9A9258754D5</generatorID>
+<ownerDesignName>SistemaGerenciamentoDadosReciclagem</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5D8E9023-E564-FCBF-7D2B-BA371DAA2373"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="45CCB97E-E481-5DA2-0113-645BD93A7EF1" name="T_SGDR_ENDERECO_T_SGDR_CATADOR_FK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-06-03 12:23:01 UTC</createdTime>
+<generatorID>0EA9EB6C-3044-C6C8-B2D8-507C01E71FA4</generatorID>
+<ownerDesignName>SistemaGerenciamentoDadosReciclagem</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8068ACFA-D1AE-A32F-BB9C-867C4C595473"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

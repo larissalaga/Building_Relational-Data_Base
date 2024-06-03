@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="29A09E9E-9C20-2303-839B-8A0B2C0D3C94" containerWithKeyObject="B86A32B4-7034-3E50-482C-B85C94C3E115" localFKIndex="5342BB20-8EAC-822D-A384-50D64E8874E4" name="T_SGDR_ENDERECO_T_SGDR_COOPERATIVA_FK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-06-03 12:23:01 UTC</createdTime>
+<generatorID>50D67029-367D-5180-AC12-E9A9258754D5</generatorID>
+<ownerDesignName>SistemaGerenciamentoDadosReciclagem</ownerDesignName>
+<referredTableLongName>T_SGDR_COOPERATIVA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>5C41335F-D394-697A-D665-6B94CDFA0BE5</referredTableID>
+<keyObject>F1BDE789-B5F6-4031-72D5-1326A1CEBB07</keyObject>
+<referredKeyID>F1BDE789-B5F6-4031-72D5-1326A1CEBB07</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_cooperativa</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

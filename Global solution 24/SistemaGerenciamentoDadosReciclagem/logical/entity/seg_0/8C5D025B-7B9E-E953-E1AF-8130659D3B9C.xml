@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="481291A7-AD78-4CF4-0D89-EBD0904DA7CE" name="T_SGDR_USUARIO">
-<createdBy>laris</createdBy>
-<createdTime>2024-06-03 03:32:35 UTC</createdTime>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8C5D025B-7B9E-E953-E1AF-8130659D3B9C" name="T_SGDR_COOPERATIVA">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-06-03 11:45:55 UTC</createdTime>
 <ownerDesignName>SistemaGerenciamentoDadosReciclagem</ownerDesignName>
 <engineerTo>
 <item key="5D63FC2D-A51E-B8E0-39F2-2BC650CE12BE" value="true"/>
@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id_usuario" id="CBB6BFFC-0D83-9C56-76CB-8C1B8C616ED4">
-<createdBy>laris</createdBy>
-<createdTime>2024-06-03 03:40:43 UTC</createdTime>
+<Attribute name="id_cooperativa" id="5CC9E0AA-3EF6-9CC7-9588-965C9D9F0084">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-06-03 11:46:14 UTC</createdTime>
 <ownerDesignName>SistemaGerenciamentoDadosReciclagem</ownerDesignName>
 <engineerTo>
 <item key="5D63FC2D-A51E-B8E0-39F2-2BC650CE12BE" value="true"/>
@@ -27,9 +27,9 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="nm_usuario" id="7946ED28-5A86-B31A-B659-5F603E73F224">
-<createdBy>laris</createdBy>
-<createdTime>2024-06-03 03:42:06 UTC</createdTime>
+<Attribute name="nm_coperativa" id="269E8B7D-CA53-308C-B322-D2B72288F8AC">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-06-03 11:46:45 UTC</createdTime>
 <ownerDesignName>SistemaGerenciamentoDadosReciclagem</ownerDesignName>
 <engineerTo>
 <item key="5D63FC2D-A51E-B8E0-39F2-2BC650CE12BE" value="true"/>
@@ -40,9 +40,9 @@
 <dataTypeSize>100 CHAR</dataTypeSize>
 <ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ds_email" id="CC374DD7-0290-31A7-58EC-F11324C43FAE">
-<createdBy>laris</createdBy>
-<createdTime>2024-06-03 03:43:08 UTC</createdTime>
+<Attribute name="nr_telefone" id="B667DEDA-D41D-F8E6-2A1E-04B1AE129710">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-06-03 11:47:28 UTC</createdTime>
 <ownerDesignName>SistemaGerenciamentoDadosReciclagem</ownerDesignName>
 <engineerTo>
 <item key="5D63FC2D-A51E-B8E0-39F2-2BC650CE12BE" value="true"/>
@@ -50,21 +50,21 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>100 CHAR</dataTypeSize>
-<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="1FFF45E4-0A15-2D91-7FFE-F99A28175E7B" name="T_SGDT_USUARIO PK">
-<createdBy>laris</createdBy>
-<createdTime>2024-06-03 03:40:57 UTC</createdTime>
+<identifier id="EE09C902-A13B-5C61-0355-6BF6F888483F" name="T_SGDR_COOPERATIVA PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-06-03 11:46:28 UTC</createdTime>
 <ownerDesignName>SistemaGerenciamentoDadosReciclagem</ownerDesignName>
 <engineerTo>
 <item key="5D63FC2D-A51E-B8E0-39F2-2BC650CE12BE" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>CBB6BFFC-0D83-9C56-76CB-8C1B8C616ED4</attributeRef>
+<attributeRef>5CC9E0AA-3EF6-9CC7-9588-965C9D9F0084</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>
