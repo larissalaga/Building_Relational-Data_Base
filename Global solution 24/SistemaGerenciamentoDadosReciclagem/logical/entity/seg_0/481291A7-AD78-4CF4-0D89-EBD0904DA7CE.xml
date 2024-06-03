@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="481291A7-AD78-4CF4-0D89-EBD0904DA7CE" name="T_SGDR_USUARIO">
+<createdBy>laris</createdBy>
+<createdTime>2024-06-03 03:32:35 UTC</createdTime>
+<ownerDesignName>SistemaGerenciamentoDadosReciclagem</ownerDesignName>
+<engineerTo>
+<item key="5D63FC2D-A51E-B8E0-39F2-2BC650CE12BE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_usuario" id="CBB6BFFC-0D83-9C56-76CB-8C1B8C616ED4">
+<createdBy>laris</createdBy>
+<createdTime>2024-06-03 03:40:43 UTC</createdTime>
+<ownerDesignName>SistemaGerenciamentoDadosReciclagem</ownerDesignName>
+<engineerTo>
+<item key="5D63FC2D-A51E-B8E0-39F2-2BC650CE12BE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_usuario" id="7946ED28-5A86-B31A-B659-5F603E73F224">
+<createdBy>laris</createdBy>
+<createdTime>2024-06-03 03:42:06 UTC</createdTime>
+<ownerDesignName>SistemaGerenciamentoDadosReciclagem</ownerDesignName>
+<engineerTo>
+<item key="5D63FC2D-A51E-B8E0-39F2-2BC650CE12BE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_email" id="CC374DD7-0290-31A7-58EC-F11324C43FAE">
+<createdBy>laris</createdBy>
+<createdTime>2024-06-03 03:43:08 UTC</createdTime>
+<ownerDesignName>SistemaGerenciamentoDadosReciclagem</ownerDesignName>
+<engineerTo>
+<item key="5D63FC2D-A51E-B8E0-39F2-2BC650CE12BE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1FFF45E4-0A15-2D91-7FFE-F99A28175E7B" name="T_SGDT_USUARIO PK">
+<createdBy>laris</createdBy>
+<createdTime>2024-06-03 03:40:57 UTC</createdTime>
+<ownerDesignName>SistemaGerenciamentoDadosReciclagem</ownerDesignName>
+<engineerTo>
+<item key="5D63FC2D-A51E-B8E0-39F2-2BC650CE12BE" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>CBB6BFFC-0D83-9C56-76CB-8C1B8C616ED4</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="SistemaGerenciamentoDadosReciclagem" id="CEA48A54-3455-93D9-E8E9-CFEF7C5535B4" version="3.5">
+<createdBy>laris</createdBy>
+<createdTime>2024-06-03 03:32:24 UTC</createdTime>
+<ownerDesignName>SistemaGerenciamentoDadosReciclagem</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>CEA48A54-3455-93D9-E8E9-CFEF7C5535B4</designId>
+</OSDM_Design>
